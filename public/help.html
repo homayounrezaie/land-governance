@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Land Governance Map Help</title>
+  <style>
+    :root{font-family:Arial,sans-serif;color:#203129;background:#f3f0e7}*{box-sizing:border-box}body{margin:0}main{width:min(900px,calc(100% - 32px));margin:32px auto 70px}.hero,.section{background:#fbfaf5;border:1px solid #d9d5ca;border-radius:16px}.hero{padding:32px;margin-bottom:16px;background:#294f40;color:white}.mark{width:42px;height:42px;display:grid;place-items:center;background:#fbfaf5;color:#294f40;border-radius:10px;font-family:Georgia,serif;font-weight:bold}.hero h1{font-family:Georgia,serif;font-size:34px;margin:18px 0 8px}.hero p{max-width:670px;color:#dce7e1;line-height:1.55}.section{padding:26px;margin-top:14px}h2{font-family:Georgia,serif;font-size:24px;margin:0 0 18px}h3{font-size:14px;margin:0 0 5px}.item{padding:14px 0;border-top:1px solid #e1ddd3}.item:first-of-type{border-top:0}.item p{margin:4px 0 0;color:#65716b;font-size:14px;line-height:1.55}.badge{display:inline-block;margin-left:6px;padding:3px 6px;background:#e1ebe5;color:#315d4c;border-radius:10px;font-size:10px;vertical-align:2px}.warning{padding:16px;border-left:4px solid #ad5843;background:#f4e9df;color:#684c43;border-radius:4px 10px 10px 4px;line-height:1.55}a{color:#285f4b}.steps{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.step{padding:14px;background:#eeece4;border-radius:10px}.step strong{display:block;margin-bottom:5px}.step span{color:#65716b;font-size:13px;line-height:1.4}@media(max-width:600px){main{margin-top:16px}.hero,.section{padding:20px}.steps{grid-template-columns:1fr}.hero h1{font-size:28px}}
+  </style>
+</head>
+<body><main>
+  <header class="hero"><div class="mark">LG</div><h1>Map help</h1><p>Understand the Land Governance map themes, individual datasets, crop-year comparison, geographic coverage, and important research limitations.</p></header>
+
+  <section class="section"><h2>How to use the map</h2><div class="steps">
+    <div class="step"><strong>1. Choose an area</strong><span>Select Ontario, Alberta, or Saskatchewan from the control at the top.</span></div>
+    <div class="step"><strong>2. Turn layers on</strong><span>Use theme switches for groups or use individual switches to refine the map.</span></div>
+    <div class="step"><strong>3. Compare crop years</strong><span>Use the Map Layers switches to select the 2011 or 2024 AAFC Crop Inventory.</span></div>
+    <div class="step"><strong>4. Inspect features</strong><span>Select a mapped boundary or polygon to view its available attributes and context.</span></div>
+  </div></section>
+
+  <section class="section"><h2>Theme switches</h2>
+    <div class="item"><h3>Agricultural change</h3><p>Controls the 2011 and 2024 AAFC crop inventories, agricultural capability, and national administrative boundaries.</p></div>
+    <div class="item"><h3>Land governance</h3><p>Controls municipal or township boundaries, available parcel references, Crown/public-land records, and national administrative boundaries.</p></div>
+    <div class="item"><h3>Indigenous data · paused</h3><p>No Indigenous boundary layer is published pending governance direction from Chiefs of Ontario and participating Nations.</p></div>
+    <div class="item"><h3>Data access</h3><p>Displays available boundary and parcel-reference coverage. It helps reveal uneven data access but does not contain complete ownership or transaction records.</p></div>
+  </section>
+
+  <section class="section"><h2>Dataset layers</h2>
+    <div class="item"><h3>Province &amp; territory boundaries <span class="badge">Canada-wide</span></h3><p>Statistics Canada 2021 boundaries for all 10 provinces and 3 territories. These provide national geographic context.</p></div>
+    <div class="item"><h3>Agricultural capability · 1:1M <span class="badge">Generalized</span></h3><p>Canada Land Inventory classifications representing agricultural potential and soil limitations. The 1:1,000,000 scale is suitable for regional context, not parcel-level decisions.</p></div>
+    <div class="item"><h3>Municipal &amp; township boundaries</h3><p>Ontario municipal boundaries, Alberta Township System outlines, or Saskatchewan rural-municipality boundaries. The geographic unit differs by province.</p></div>
+    <div class="item"><h3>Parcel &amp; lot references <span class="badge">Partial coverage</span></h3><p>Niagara Falls parcel polygons in Ontario, an Edmonton assessment-centroid display sample in Alberta, and Saskatchewan township references. These are not equivalent province-wide legal parcel datasets.</p></div>
+    <div class="item"><h3>Crown &amp; public land <span class="badge">Province-specific</span></h3><p>Selected Ontario and Saskatchewan public-land records. Availability, definitions, and attributes differ between provinces.</p></div>
+    <div class="item"><h3>Indigenous and treaty data <span class="badge">Paused</span></h3><p>Federal administrative derivatives are not displayed. Chiefs of Ontario and participating Nations will guide whether these files should be held, analyzed, or published.</p></div>
+  </section>
+
+  <section class="section"><h2>AAFC Crop Inventory</h2><p>The coloured raster is Agriculture and Agri-Food Canada’s satellite-derived crop and land-cover classification. Use the legend for class colours and the Map Layers switches for 2011 or 2024. The web display is reprojected, clipped to official provincial boundaries, and downsampled; nearest-neighbour processing preserves class codes.</p><p><a href="https://agriculture.canada.ca/atlas/annual-crop-inventory" target="_blank" rel="noreferrer">Open the official AAFC Crop Inventory page ↗</a></p></section>
+
+  <section class="section"><h2>Important limitations</h2><div class="warning">This map provides research and geographic context. It is not a legal survey or title system. It does not yet contain complete province-wide owners, buyers, sellers, prices, mortgages, or historical transfers. Public Indigenous layers do not define the full extent of Indigenous territories or jurisdiction.</div></section>
+</main></body></html>

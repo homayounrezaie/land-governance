@@ -1,0 +1,24 @@
+# Local source data and internal project records
+dataset/
+log/
+requests/
+docs/
+RA.pdf
+WEBMAP.md
+
+# Data-processing utilities depend on excluded local source data
+scripts/
+
+# Dependencies and generated builds
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+
+# Local/editor files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/

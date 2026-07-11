@@ -1,0 +1,513 @@
+{
+  "generated": "2026-07-11T01:57:53.479Z",
+  "sources": {
+    "operators": "32-10-0381-01",
+    "succession": "32-10-0244-01",
+    "farmSize": "32-10-0156-01 and 32-10-0153-01",
+    "farmlandValue": "32-10-0047-01",
+    "tenure": "32-10-0234-01"
+  },
+  "provinces": {
+    "ontario": {
+      "farmSizeTrend": [
+        {
+          "year": 2001,
+          "farms": 59728,
+          "totalAcres": 13507357,
+          "averageAcres": 226
+        },
+        {
+          "year": 2006,
+          "farms": 57211,
+          "totalAcres": 13310216,
+          "averageAcres": 233
+        },
+        {
+          "year": 2011,
+          "farms": 51950,
+          "totalAcres": 12668236,
+          "averageAcres": 244
+        },
+        {
+          "year": 2016,
+          "farms": 49600,
+          "totalAcres": 12348463,
+          "averageAcres": 249
+        },
+        {
+          "year": 2021,
+          "farms": 48346,
+          "totalAcres": 11766071,
+          "averageAcres": 243
+        }
+      ],
+      "farmlandValueTrend": [
+        {
+          "year": 2000,
+          "dollarsPerAcre": 2964
+        },
+        {
+          "year": 2001,
+          "dollarsPerAcre": 3028
+        },
+        {
+          "year": 2002,
+          "dollarsPerAcre": 3248
+        },
+        {
+          "year": 2003,
+          "dollarsPerAcre": 3466
+        },
+        {
+          "year": 2004,
+          "dollarsPerAcre": 3712
+        },
+        {
+          "year": 2005,
+          "dollarsPerAcre": 3938
+        },
+        {
+          "year": 2006,
+          "dollarsPerAcre": 4201
+        },
+        {
+          "year": 2007,
+          "dollarsPerAcre": 4443
+        },
+        {
+          "year": 2008,
+          "dollarsPerAcre": 4750
+        },
+        {
+          "year": 2009,
+          "dollarsPerAcre": 5036
+        },
+        {
+          "year": 2010,
+          "dollarsPerAcre": 5461
+        },
+        {
+          "year": 2011,
+          "dollarsPerAcre": 5985
+        },
+        {
+          "year": 2012,
+          "dollarsPerAcre": 7013
+        },
+        {
+          "year": 2013,
+          "dollarsPerAcre": 8087
+        },
+        {
+          "year": 2014,
+          "dollarsPerAcre": 8705
+        },
+        {
+          "year": 2015,
+          "dollarsPerAcre": 9289
+        },
+        {
+          "year": 2016,
+          "dollarsPerAcre": 9580
+        },
+        {
+          "year": 2017,
+          "dollarsPerAcre": 10409
+        },
+        {
+          "year": 2018,
+          "dollarsPerAcre": 11087
+        },
+        {
+          "year": 2019,
+          "dollarsPerAcre": 11786
+        },
+        {
+          "year": 2020,
+          "dollarsPerAcre": 12341
+        },
+        {
+          "year": 2021,
+          "dollarsPerAcre": 14435
+        },
+        {
+          "year": 2022,
+          "dollarsPerAcre": 17963
+        },
+        {
+          "year": 2023,
+          "dollarsPerAcre": 19738
+        },
+        {
+          "year": 2024,
+          "dollarsPerAcre": 20785
+        },
+        {
+          "year": 2025,
+          "dollarsPerAcre": 21073
+        }
+      ],
+      "latestFarmlandValue": {
+        "year": 2025,
+        "dollarsPerAcre": 21073
+      },
+      "operators": {
+        "total": 67390,
+        "female": 20895,
+        "male": 46490,
+        "under35": 5620,
+        "age35to54": 19780,
+        "age55plus": 42000,
+        "averageAge": 56.7,
+        "medianAge": 58
+      },
+      "succession": {
+        "written": 5987,
+        "verbal": 10829,
+        "noPlan": 31530,
+        "total": 48346
+      },
+      "tenure": {
+        "total": 4761559,
+        "owned": 3404658,
+        "governmentLease": 31173,
+        "privateRent": 1335045,
+        "cropShare": 160986
+      }
+    },
+    "alberta": {
+      "farmSizeTrend": [
+        {
+          "year": 2001,
+          "farms": 53652,
+          "totalAcres": 52058898,
+          "averageAcres": 970
+        },
+        {
+          "year": 2006,
+          "farms": 49431,
+          "totalAcres": 52127857,
+          "averageAcres": 1055
+        },
+        {
+          "year": 2011,
+          "farms": 43234,
+          "totalAcres": 50498834,
+          "averageAcres": 1168
+        },
+        {
+          "year": 2016,
+          "farms": 40638,
+          "totalAcres": 50250183,
+          "averageAcres": 1237
+        },
+        {
+          "year": 2021,
+          "farms": 41505,
+          "totalAcres": 49157232,
+          "averageAcres": 1184
+        }
+      ],
+      "farmlandValueTrend": [
+        {
+          "year": 2000,
+          "dollarsPerAcre": 721
+        },
+        {
+          "year": 2001,
+          "dollarsPerAcre": 747
+        },
+        {
+          "year": 2002,
+          "dollarsPerAcre": 806
+        },
+        {
+          "year": 2003,
+          "dollarsPerAcre": 863
+        },
+        {
+          "year": 2004,
+          "dollarsPerAcre": 931
+        },
+        {
+          "year": 2005,
+          "dollarsPerAcre": 1012
+        },
+        {
+          "year": 2006,
+          "dollarsPerAcre": 1095
+        },
+        {
+          "year": 2007,
+          "dollarsPerAcre": 1203
+        },
+        {
+          "year": 2008,
+          "dollarsPerAcre": 1381
+        },
+        {
+          "year": 2009,
+          "dollarsPerAcre": 1426
+        },
+        {
+          "year": 2010,
+          "dollarsPerAcre": 1514
+        },
+        {
+          "year": 2011,
+          "dollarsPerAcre": 1592
+        },
+        {
+          "year": 2012,
+          "dollarsPerAcre": 1706
+        },
+        {
+          "year": 2013,
+          "dollarsPerAcre": 1893
+        },
+        {
+          "year": 2014,
+          "dollarsPerAcre": 2025
+        },
+        {
+          "year": 2015,
+          "dollarsPerAcre": 2185
+        },
+        {
+          "year": 2016,
+          "dollarsPerAcre": 2354
+        },
+        {
+          "year": 2017,
+          "dollarsPerAcre": 2564
+        },
+        {
+          "year": 2018,
+          "dollarsPerAcre": 2742
+        },
+        {
+          "year": 2019,
+          "dollarsPerAcre": 2897
+        },
+        {
+          "year": 2020,
+          "dollarsPerAcre": 3091
+        },
+        {
+          "year": 2021,
+          "dollarsPerAcre": 3279
+        },
+        {
+          "year": 2022,
+          "dollarsPerAcre": 3495
+        },
+        {
+          "year": 2023,
+          "dollarsPerAcre": 3731
+        },
+        {
+          "year": 2024,
+          "dollarsPerAcre": 4024
+        },
+        {
+          "year": 2025,
+          "dollarsPerAcre": 4367
+        }
+      ],
+      "latestFarmlandValue": {
+        "year": 2025,
+        "dollarsPerAcre": 4367
+      },
+      "operators": {
+        "total": 57200,
+        "female": 18525,
+        "male": 38675,
+        "under35": 5115,
+        "age35to54": 16565,
+        "age55plus": 35515,
+        "averageAge": 56.5,
+        "medianAge": 58
+      },
+      "succession": {
+        "written": 5800,
+        "verbal": 10373,
+        "noPlan": 25332,
+        "total": 41505
+      },
+      "tenure": {
+        "total": 19893223,
+        "owned": 11935284,
+        "governmentLease": 3340453,
+        "privateRent": 4905628,
+        "cropShare": 547775
+      }
+    },
+    "saskatchewan": {
+      "farmSizeTrend": [
+        {
+          "year": 2001,
+          "farms": 50598,
+          "totalAcres": 64903830,
+          "averageAcres": 1283
+        },
+        {
+          "year": 2006,
+          "farms": 44329,
+          "totalAcres": 64253845,
+          "averageAcres": 1449
+        },
+        {
+          "year": 2011,
+          "farms": 36952,
+          "totalAcres": 61628148,
+          "averageAcres": 1668
+        },
+        {
+          "year": 2016,
+          "farms": 34523,
+          "totalAcres": 61585788,
+          "averageAcres": 1784
+        },
+        {
+          "year": 2021,
+          "farms": 34128,
+          "totalAcres": 60265339,
+          "averageAcres": 1766
+        }
+      ],
+      "farmlandValueTrend": [
+        {
+          "year": 2000,
+          "dollarsPerAcre": 336
+        },
+        {
+          "year": 2001,
+          "dollarsPerAcre": 337
+        },
+        {
+          "year": 2002,
+          "dollarsPerAcre": 345
+        },
+        {
+          "year": 2003,
+          "dollarsPerAcre": 360
+        },
+        {
+          "year": 2004,
+          "dollarsPerAcre": 371
+        },
+        {
+          "year": 2005,
+          "dollarsPerAcre": 381
+        },
+        {
+          "year": 2006,
+          "dollarsPerAcre": 391
+        },
+        {
+          "year": 2007,
+          "dollarsPerAcre": 411
+        },
+        {
+          "year": 2008,
+          "dollarsPerAcre": 463
+        },
+        {
+          "year": 2009,
+          "dollarsPerAcre": 517
+        },
+        {
+          "year": 2010,
+          "dollarsPerAcre": 551
+        },
+        {
+          "year": 2011,
+          "dollarsPerAcre": 624
+        },
+        {
+          "year": 2012,
+          "dollarsPerAcre": 720
+        },
+        {
+          "year": 2013,
+          "dollarsPerAcre": 872
+        },
+        {
+          "year": 2014,
+          "dollarsPerAcre": 1026
+        },
+        {
+          "year": 2015,
+          "dollarsPerAcre": 1134
+        },
+        {
+          "year": 2016,
+          "dollarsPerAcre": 1210
+        },
+        {
+          "year": 2017,
+          "dollarsPerAcre": 1341
+        },
+        {
+          "year": 2018,
+          "dollarsPerAcre": 1460
+        },
+        {
+          "year": 2019,
+          "dollarsPerAcre": 1585
+        },
+        {
+          "year": 2020,
+          "dollarsPerAcre": 1710
+        },
+        {
+          "year": 2021,
+          "dollarsPerAcre": 1798
+        },
+        {
+          "year": 2022,
+          "dollarsPerAcre": 2050
+        },
+        {
+          "year": 2023,
+          "dollarsPerAcre": 2385
+        },
+        {
+          "year": 2024,
+          "dollarsPerAcre": 2647
+        },
+        {
+          "year": 2025,
+          "dollarsPerAcre": 2943
+        }
+      ],
+      "latestFarmlandValue": {
+        "year": 2025,
+        "dollarsPerAcre": 2943
+      },
+      "operators": {
+        "total": 44140,
+        "female": 12010,
+        "male": 32130,
+        "under35": 4305,
+        "age35to54": 13065,
+        "age55plus": 26770,
+        "averageAge": 55.8,
+        "medianAge": 58
+      },
+      "succession": {
+        "written": 4816,
+        "verbal": 8319,
+        "noPlan": 20993,
+        "total": 34128
+      },
+      "tenure": {
+        "total": 24388514,
+        "owned": 15241286,
+        "governmentLease": 2779552,
+        "privateRent": 6861466,
+        "cropShare": 834088
+      }
+    }
+  }
+}
