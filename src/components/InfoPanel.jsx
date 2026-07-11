@@ -12,6 +12,41 @@ const THEME_INFO = {
 
 const pretty = value => value === null || value === undefined || value === '' ? '—' : String(value)
 
+const BUSINESS_LABELS = [
+  ['soleProprietorship','Sole proprietor','#315f4d'],
+  ['partnership','Partnership','#7f9f88'],
+  ['familyCorporation','Family corporation','#d49a48'],
+  ['nonFamilyCorporation','Non-family corporation','#ad5a47'],
+  ['other','Other','#a9aca7']
+]
+
+function BusinessStructure({ province, partner, number }) {
+  const structure = partner.businessStructure
+  const trend = partner.businessStructureTrend
+  if (!structure || !trend?.length) return null
+  const incorporated = (structure.familyCorporation || 0) + (structure.nonFamilyCorporation || 0)
+  const incorporatedShare = structure.total ? incorporated / structure.total * 100 : 0
+  const maxTrend = Math.max(...trend.map(point => point.incorporatedShare || 0), 1)
+  return <section className="indicator-section business-structure">
+    <div className="indicator-heading">
+      <strong>Farm business structure · 2021</strong>
+      <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210023501" target="_blank" rel="noreferrer">Source ↗</a>
+    </div>
+    <div className="business-callout"><strong>{incorporatedShare.toFixed(1)}%</strong><span>of {PROVINCES[province].label} farms used a family or non-family corporate operating arrangement.</span></div>
+    <div className="business-stack" role="img" aria-label={`2021 farm operating arrangements in ${PROVINCES[province].label}`}>
+      {BUSINESS_LABELS.map(([key,label,color]) => structure[key] > 0 && <i key={key} title={`${label}: ${number(structure[key])} farms`} style={{width:`${structure[key]/structure.total*100}%`,background:color}} />)}
+    </div>
+    <div className="business-key">
+      {BUSINESS_LABELS.map(([key,label,color]) => <div key={key}><i style={{background:color}}/><span>{label}</span><b>{number(structure[key])} · {Math.round((structure[key] || 0)/structure.total*100)}%</b></div>)}
+    </div>
+    <div className="business-trend-heading"><strong>Corporate operating arrangements</strong><span>share of farms · 2001–2021</span></div>
+    <div className="business-trend" role="img" aria-label={`Share of farms using corporate operating arrangements in ${PROVINCES[province].label} from 2001 to 2021`}>
+      {trend.map(point => <div key={point.year}><b>{point.incorporatedShare}%</b><i><em style={{height:`${Math.max(8,point.incorporatedShare/maxTrend*100)}%`}} /></i><small>{point.year}</small></div>)}
+    </div>
+    <p>Farm operating arrangement—not parcel or beneficial ownership. A family or non-family corporation is not automatically an outside investor. The 2021 figures use administrative tax data, and changes in definitions require caution across census years.</p>
+  </section>
+}
+
 export default function InfoPanel({ selected, province, theme, cropYear, activeLayers, onClose }) {
   const baseInfo = THEME_INFO[theme]
   const info = theme === 'agriculture' ? { ...baseInfo, cards:[[cropYear ? String(cropYear) : 'None','crop inventory'],['1:1M','capability scale']] } : baseInfo
@@ -71,6 +106,7 @@ export default function InfoPanel({ selected, province, theme, cropYear, activeL
           </section>
           <small className="indicator-source">Sources: Statistics Canada tables 32-10-0156-01, 32-10-0153-01, 32-10-0047-01, 32-10-0381-01 and 32-10-0244-01.</small>
         </>}
+        {(theme === 'agriculture' || theme === 'governance') && partner && <BusinessStructure province={province} partner={partner} number={number} />}
       </div>
     </>}
   </aside>

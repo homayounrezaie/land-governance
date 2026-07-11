@@ -1,11 +1,12 @@
 {
-  "generated": "2026-07-11T01:57:53.479Z",
+  "generated": "2026-07-11T02:39:43.914Z",
   "sources": {
     "operators": "32-10-0381-01",
     "succession": "32-10-0244-01",
     "farmSize": "32-10-0156-01 and 32-10-0153-01",
     "farmlandValue": "32-10-0047-01",
-    "tenure": "32-10-0234-01"
+    "tenure": "32-10-0234-01",
+    "operatingArrangement": "32-10-0235-01 and 32-10-0158-01"
   },
   "provinces": {
     "ontario": {
@@ -173,7 +174,58 @@
         "governmentLease": 31173,
         "privateRent": 1335045,
         "cropShare": 160986
-      }
+      },
+      "businessStructure": {
+        "year": 2021,
+        "total": 48346,
+        "soleProprietorship": 23694,
+        "partnership": 14597,
+        "familyCorporation": 9021,
+        "nonFamilyCorporation": 979,
+        "other": 55
+      },
+      "businessStructureTrend": [
+        {
+          "year": 2001,
+          "total": 59728,
+          "incorporated": 7275,
+          "familyCorporation": 6670,
+          "nonFamilyCorporation": 605,
+          "incorporatedShare": 12.2
+        },
+        {
+          "year": 2006,
+          "total": 57211,
+          "incorporated": 8271,
+          "familyCorporation": 7538,
+          "nonFamilyCorporation": 733,
+          "incorporatedShare": 14.5
+        },
+        {
+          "year": 2011,
+          "total": 51950,
+          "incorporated": 8716,
+          "familyCorporation": 7837,
+          "nonFamilyCorporation": 879,
+          "incorporatedShare": 16.8
+        },
+        {
+          "year": 2016,
+          "total": 49600,
+          "incorporated": 10925,
+          "familyCorporation": 9935,
+          "nonFamilyCorporation": 990,
+          "incorporatedShare": 22
+        },
+        {
+          "year": 2021,
+          "total": 48346,
+          "incorporated": 10000,
+          "familyCorporation": 9021,
+          "nonFamilyCorporation": 979,
+          "incorporatedShare": 20.7
+        }
+      ]
     },
     "alberta": {
       "farmSizeTrend": [
@@ -340,7 +392,58 @@
         "governmentLease": 3340453,
         "privateRent": 4905628,
         "cropShare": 547775
-      }
+      },
+      "businessStructure": {
+        "year": 2021,
+        "total": 41505,
+        "soleProprietorship": 22550,
+        "partnership": 9639,
+        "familyCorporation": 8604,
+        "nonFamilyCorporation": 620,
+        "other": 92
+      },
+      "businessStructureTrend": [
+        {
+          "year": 2001,
+          "total": 53652,
+          "incorporated": 6857,
+          "familyCorporation": 6124,
+          "nonFamilyCorporation": 733,
+          "incorporatedShare": 12.8
+        },
+        {
+          "year": 2006,
+          "total": 49431,
+          "incorporated": 7411,
+          "familyCorporation": 6714,
+          "nonFamilyCorporation": 697,
+          "incorporatedShare": 15
+        },
+        {
+          "year": 2011,
+          "total": 43234,
+          "incorporated": 7592,
+          "familyCorporation": 6821,
+          "nonFamilyCorporation": 771,
+          "incorporatedShare": 17.6
+        },
+        {
+          "year": 2016,
+          "total": 40638,
+          "incorporated": 10090,
+          "familyCorporation": 9287,
+          "nonFamilyCorporation": 803,
+          "incorporatedShare": 24.8
+        },
+        {
+          "year": 2021,
+          "total": 41505,
+          "incorporated": 9224,
+          "familyCorporation": 8604,
+          "nonFamilyCorporation": 620,
+          "incorporatedShare": 22.2
+        }
+      ]
     },
     "saskatchewan": {
       "farmSizeTrend": [
@@ -507,7 +610,58 @@
         "governmentLease": 2779552,
         "privateRent": 6861466,
         "cropShare": 834088
-      }
+      },
+      "businessStructure": {
+        "year": 2021,
+        "total": 34128,
+        "soleProprietorship": 19925,
+        "partnership": 4796,
+        "familyCorporation": 8802,
+        "nonFamilyCorporation": 519,
+        "other": 86
+      },
+      "businessStructureTrend": [
+        {
+          "year": 2001,
+          "total": 50598,
+          "incorporated": 5046,
+          "familyCorporation": 4602,
+          "nonFamilyCorporation": 444,
+          "incorporatedShare": 10
+        },
+        {
+          "year": 2006,
+          "total": 44329,
+          "incorporated": 5905,
+          "familyCorporation": 5380,
+          "nonFamilyCorporation": 525,
+          "incorporatedShare": 13.3
+        },
+        {
+          "year": 2011,
+          "total": 36952,
+          "incorporated": 6846,
+          "familyCorporation": 6304,
+          "nonFamilyCorporation": 542,
+          "incorporatedShare": 18.5
+        },
+        {
+          "year": 2016,
+          "total": 34523,
+          "incorporated": 9407,
+          "familyCorporation": 8758,
+          "nonFamilyCorporation": 649,
+          "incorporatedShare": 27.2
+        },
+        {
+          "year": 2021,
+          "total": 34128,
+          "incorporated": 9321,
+          "familyCorporation": 8802,
+          "nonFamilyCorporation": 519,
+          "incorporatedShare": 27.3
+        }
+      ]
     }
   }
 }
