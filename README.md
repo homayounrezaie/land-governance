@@ -65,3 +65,16 @@ farm employment
 young/new farmers
 rented versus owned farmland
 proximity to reserves, Treaty lands and Indigenous territories
+
+
+# Where to buy the data
+- Alberta
+    ARLO / SPIN2 — Alberta Land Titles
+
+- Saskatchewan
+    ISC Land Titles Registry
+    ISC Surface Cadastral
+
+- Ontario
+    OnLand
+    Teranet
