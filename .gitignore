@@ -5,6 +5,7 @@ requests/
 docs/
 RA.pdf
 WEBMAP.md
+/[Ss]arah.md
 
 # Data-processing utilities depend on excluded local source data
 scripts/

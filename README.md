@@ -1,44 +1,93 @@
-# Land Governance Explorer
 
-An interactive research dashboard for agricultural change, public land, parcel-reference coverage, and aggregated farm indicators in Ontario, Alberta, and Saskatchewan.
 
-## Public data scope
+### time frame?
 
-This repository contains only the optimized data required by the web application in `public/data/`. It does **not** contain the project’s raw dataset, registry samples, internal logs, licensing requests, or Indigenous/shared source files.
 
-Current public layers include:
+1. Data you definitely need
 
-- AAFC Crop Inventory for 2011 and 2024;
-- Statistics Canada province boundaries and province-level farmland values;
-- generalized Canada Land Inventory agricultural capability;
-- municipal/township and partial parcel-reference geometry;
-- selected Ontario and Saskatchewan Crown/public-land records;
-- aggregated Statistics Canada farm-size, tenure, operator, value, and succession indicators.
+# - A. Parcel boundaries
 
-Niagara Falls parcel geometry is city-only. Edmonton data are city-only assessment centroids. Neither represents province-wide ownership. Owner names and historical transactions are not included.
+parcel ID
+legal land description
+parcel geometry
+area
+municipality
+land classification
 
-Indigenous/treaty administrative derivatives are intentionally excluded pending governance direction from Chiefs of Ontario and participating Nations.
+# - B. Current land ownership
 
-## Development
+registered owner name
+owner type: individual, company, government, trust, Indigenous organization
+ownership share
+title number
+parcel ID
+acquisition date, when available
 
-```bash
-npm ci
-npm run dev
-```
+# - C. Historical ownership and transfers
 
-## Production build
+previous owner
+new owner
+transfer/registration date
+sale price, where available
+transfer or instrument number
+title creation/cancellation dates
+mortgage or lender information, where relevant
 
-```bash
-npm run build
-npm run preview
-```
+# - D. Corporate ownership information
 
-Vite uses relative asset paths so the build works under a GitHub Pages repository subdirectory.
+legal company name
+corporation number
+directors or registered office, where available
+parent company
+subsidiaries
+incorporation jurisdiction
 
-## Deployment
+2. Agricultural data you should collect
 
-Pushes to `main` run `.github/workflows/deploy-pages.yml`, build the Vite application, and deploy `dist/` to GitHub Pages.
+crop type by year
+agricultural land classification
+land tenure: owned versus rented
 
-## Research limitations
+3. Ecological data
 
-This dashboard provides geographic and aggregated statistical context. It is not a legal survey, title system, parcel-owner database, or transaction registry. Do not use its municipal samples to make province-wide ownership claims.
+wetlands
+grasslands
+tree and shelterbelt cover
+surface water
+land-cover change
+field-boundary change
+soil
+slope and elevation
+
+4. Social data
+
+number of farms
+average farm size
+farmland prices
+farmer age
+population change
+farm employment
+young/new farmers
+rented versus owned farmland
+proximity to reserves, Treaty lands and Indigenous territories
+
+
+# Where to buy the data
+- Alberta
+    ARLO / SPIN2 — Alberta Land Titles
+    real estate transfers: https://www.alberta.ca/agricultural-real-estate-transfers-by-municipality-and-c-l-i-class?utm_source=chatgpt.com
+
+- Saskatchewan
+    ISC Land Titles Registry
+    ISC Surface Cadastral
+    SAMA:  https://www.sama.sk.ca/property-owner-services/detailed-property-information?utm_source=chatgpt.com
+    Land Sales Database: https://www.saskatchewan.ca/Business/Agriculture-Natural-Resources-and-Industry/Agribusiness-Farmers-and-Ranchers/Comparable-Land-Sales-Database?utm_source=chatgpt.com
+    Who Owns Saskatchewan’s Farmland? https://www.schoolofpublicpolicy.sk.ca/research-ideas/publications-and-policy-insight/policy-brief/policy-brief-sk-farmland.php?utm_source=chatgpt.com
+
+
+- Ontario
+    OnLand
+    Teranet
+    MPAC: https://www.mpac.ca/en/CommercialSolutions/ProductsandServices?utm_source=chatgpt.com
+    farm-area datasets (free): https://data.ontario.ca/dataset/ontario-total-farm-area?utm_source=chatgpt.com
+    rental-rate dataset (free): https://data.ontario.ca/dataset/estimated-value-and-rental-rate-of-farmland-by-county-and-township?utm_source=chatgpt.com
