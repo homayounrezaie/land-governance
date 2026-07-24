@@ -79,7 +79,14 @@ proximity to reserves, Treaty lands and Indigenous territories
 - Saskatchewan
     ISC Land Titles Registry
     ISC Surface Cadastral
+    SAMA:  https://www.sama.sk.ca/property-owner-services/detailed-property-information?utm_source=chatgpt.com
+    Land Sales Database: https://www.saskatchewan.ca/Business/Agriculture-Natural-Resources-and-Industry/Agribusiness-Farmers-and-Ranchers/Comparable-Land-Sales-Database?utm_source=chatgpt.com
+    Who Owns Saskatchewan’s Farmland? https://www.schoolofpublicpolicy.sk.ca/research-ideas/publications-and-policy-insight/policy-brief/policy-brief-sk-farmland.php?utm_source=chatgpt.com
+
 
 - Ontario
     OnLand
     Teranet
+    MPAC: https://www.mpac.ca/en/CommercialSolutions/ProductsandServices?utm_source=chatgpt.com
+    farm-area datasets (free): https://data.ontario.ca/dataset/ontario-total-farm-area?utm_source=chatgpt.com
+    rental-rate dataset (free): https://data.ontario.ca/dataset/estimated-value-and-rental-rate-of-farmland-by-county-and-township?utm_source=chatgpt.com
