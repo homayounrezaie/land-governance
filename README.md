@@ -75,6 +75,7 @@ proximity to reserves, Treaty lands and Indigenous territories
 # Where to buy the data
 - Alberta
     ARLO / SPIN2 — Alberta Land Titles
+    real estate transfers: https://www.alberta.ca/agricultural-real-estate-transfers-by-municipality-and-c-l-i-class?utm_source=chatgpt.com
 
 - Saskatchewan
     ISC Land Titles Registry
